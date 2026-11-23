@@ -35,6 +35,7 @@ Target variable: Species
 - Matplotlib
 - Seaborn
 - Scikit-learn
+  
 ⚙️ Project Workflow
 1. Load the dataset using Pandas.
 2. Explore the data by checking its structure, summary statistics,
@@ -50,10 +51,12 @@ Target variable: Species
 7. Train the model using a RandomForestClassifier with 100
    estimators.
 8. Evaluate the model using accuracy and a classification report.
+   
 🤖 Machine Learning Model
 Algorithm: Random Forest Classifier
 
 Configuration: - n_estimators = 100 - random_state = 42
+
 📈 Results
   Metric                       Result
   Cleaned dataset size       147 rows
@@ -69,6 +72,7 @@ Iris-versicolor               1.00       0.90       0.95        10
 Iris-virginica                0.91       1.00       0.95        10
 Macro average         0.97   0.97   0.97    30
 Weighted average      0.97   0.97   0.97    30
+
 📁 Repository Structure
 Iris-Flower-Classification/
 ├── Iris.csv
@@ -76,6 +80,7 @@ Iris-Flower-Classification/
 └── README.md
 If your notebook has a different filename, update the filename above to
 match the file uploaded to your repository.
+
 ▶️ How to Run the Project
 1. Clone or download this repository.
 2. Open Iris_Flower_Classification.ipynb in Jupyter Notebook or
@@ -85,6 +90,7 @@ match the file uploaded to your repository.
 4. Run the notebook cells from top to bottom.
 Install required libraries
 pip install pandas numpy matplotlib seaborn scikit-learn
+
 💡 Conclusion
 The Random Forest Classifier achieved 96.67% accuracy on the test
 set. This project demonstrates a basic machine learning classification
